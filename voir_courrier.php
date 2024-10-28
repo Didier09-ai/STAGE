@@ -6,8 +6,7 @@ $mot_de_passe = "";
 $db = "formulaire";
 
 // Connexion à MySQL
-$conn = mysqli_connect($serveur, $utilisateur, $mot_de_passe, $db);
-
+$conn = mysqli_connect("mysql-didier.alwaysdata.net", "didier", "Didiergbedan@123", "didier_db");
 // Vérification de la connexion
 if (!$conn) {
     die("La connexion a échoué : " . mysqli_connect_error());
