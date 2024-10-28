@@ -6,7 +6,7 @@ $serveur = "localhost";
 $utilisateur = "root";
 $mot_de_passe = "";
 $db = "formulaire";
-$conn = mysqli_connect($serveur, $utilisateur, $mot_de_passe, $db);
+$conn = mysqli_connect("mysql-didier.alwaysdata.net", "didier", "Didiergbedan@123", "didier_db");
 
 if (!$conn) {
     die("La connexion a échoué : " . mysqli_connect_error());

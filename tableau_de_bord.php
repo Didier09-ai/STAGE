@@ -322,9 +322,9 @@
 </section>
 
     </div>
-    <footer>
+    <!-- <footer>
         <p>&copy; Ministère de l'Enseignement Supérieur et de la Recherche Scientifique | Tous droits réservés | 2024</p>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

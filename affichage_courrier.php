@@ -6,7 +6,7 @@ $mot_de_passe = "";
 $db = "formulaire";
 
 // Connexion à MySQL
-$conn = mysqli_connect($serveur, $utilisateur, $mot_de_passe, $db);
+$conn = mysqli_connect("mysql-didier.alwaysdata.net", "didier", "Didiergbedan@123", "didier_db");
 
 // Vérification de la connexion
 if (!$conn) {
@@ -251,7 +251,7 @@ $result = mysqli_query($conn, $sql);
                         $index++;
                     }
                 } else {
-                    echo "<tr><td colspan='8'>Aucun courrier trouvé</td></tr>";
+                    echo "<tr><td colspan='8'>Vous n'avez enregistré aucune instruction.</td></tr>";
                 }
                 ?>
             </table>
